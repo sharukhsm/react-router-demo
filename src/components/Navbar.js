@@ -10,7 +10,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav className="primary-nav">
       <NavLink to="/" style={navLinkStyles}>
         Home
       </NavLink>

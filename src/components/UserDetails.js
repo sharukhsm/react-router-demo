@@ -7,5 +7,9 @@ export const UserDetails = () => {
   //or destructured way.
   const { userId } = useParams();
 
-  return <div>Details about user {userId}.</div>;
+  return (
+    <>
+      <h4>Details about user {userId}. </h4>
+    </>
+  );
 };
